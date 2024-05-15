@@ -1,0 +1,22 @@
+---
+title: "About"
+output: html_document
+date: "2024-05-15"
+---
+
+Inicialmente voy a llamar los paquetes que queiro usar en la clase
+
+```{r echo=T eval=T}
+##Llamar paquetes
+require(pacman)
+p_load(rio,tidyverse, mapview, osmdata, tmaptools)
+
+## data
+casa <- geocode("Universidad de los Andes", as.sf=T)
+
+
+
+
+```
+
+A continuación voy a pintar el objeto ` r casa$query`
