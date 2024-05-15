@@ -15,7 +15,7 @@ casa <- geocode_OSM("Universidad de los Andes", as.sf=T)
 
 ```
 
-A continuación voy a pintar el objeto `r casa\$query`
+A continuación voy a pintar el objeto `r casa$query`
 
 ```{r}
 mapview(casa) 
